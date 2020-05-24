@@ -8,9 +8,9 @@ COPY war/target/jenkins.war /usr/local/tomcat/webapps
 # java option 추가
 ENV JAVA_OPTS="-DsvrNo=4"
 
-# docker container의 timezone을 서울로 변경
+# docker container의 timezone을 서울로 변
 ENV TZ=Asia/Seoul
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
-# 8080포트
+# 8080포트#
 EXPOSE 8080
