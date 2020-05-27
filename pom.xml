@@ -62,7 +62,7 @@ THE SOFTWARE.
     <url>https://github.com/jenkinsci/jenkins</url>
     <tag>${scmTag}</tag>
   </scm>
-
+<!-- -->
   <distributionManagement>
     <site>
       <id>github-pages</id>
